@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OpenLinkExample</string>
+    <string name="open_url">Open Url</string>
+    <string name="url_input_hint">Enter URL here (with https://…)</string>
+</resources>
