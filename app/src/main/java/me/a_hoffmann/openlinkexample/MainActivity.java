@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.setData(parsedUrl);
                 startActivity(intent);
             }catch (ActivityNotFoundException ex){
-                Toast.makeText(this, "Can't open URL. Did you enter a valid URL (https://...)", Toast.LENGTH_LONG);
+                Toast.makeText(this, "Can't open URL. Did you enter a valid URL (https://...)", Toast.LENGTH_LONG).show();
             }
 
         }
